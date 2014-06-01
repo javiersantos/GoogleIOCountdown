@@ -2,6 +2,7 @@ package com.javiersantos.googleiocountdown;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ShareActionProvider;
 import android.widget.TextView;
 
 @SuppressLint("DefaultLocale")
@@ -53,8 +55,16 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
-		// Inflate the menu; this adds items to the action bar if it is present.
 		// getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.share, menu);
+		MenuItem item = menu.findItem(R.id.menu_item_share);
+		ShareActionProvider myShareActionProvider = (ShareActionProvider) item.getActionProvider();
+		Intent myIntent = new Intent();
+		myIntent.setAction(Intent.ACTION_SEND);
+		myIntent.putExtra(Intent.EXTRA_TEXT, "Google I/O 2014 Countdown for Android. By @fjaviersantos");
+		myIntent.setType("text/plain");
+		myShareActionProvider.setShareIntent(myIntent);
+		
 		return true;
 	}
 
