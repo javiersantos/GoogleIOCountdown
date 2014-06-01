@@ -5,6 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="share">Share</string>
-    <string name="text1">Next Google I/O</string>
+    <string name="text1">Next Google I/O...</string>
+    <string name="started">GOOGLE I/O IS TODAY!</string>
+    <string name="date">Wednesday 25-26, June</string>
+    <string name="setDate">Add Event to Calendar</string>
 
 </resources>

@@ -8,6 +8,7 @@
 
 <com.javiersantos.googleiocountdown.RobotoFont
     android:id="@+id/text1"
+    android:text="@string/text1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
@@ -26,5 +27,27 @@
     android:layout_marginTop="100dp"
     android:textColor="#FFFFFF"
     android:textSize="35sp" />
+
+<com.javiersantos.googleiocountdown.RobotoFontLight
+    android:id="@+id/date"
+    android:text="@string/date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_below="@+id/countdownTimer"
+    android:layout_marginTop="220dp"
+    android:textColor="#FFFFFF"
+    android:textSize="35sp" />
+
+<Button 
+    android:id="@+id/setDate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/date"
+    android:layout_marginTop="1dp"
+    android:textColor="#FFFFFF"
+    android:text="@string/setDate" />
 
 </RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Google I/O Countdown</string>
+    <string name="hello_world">¡Hola, mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="share">Compartir</string>
+    <string name="text1">Siguiente Google I/O</string>
+    <string name="started">¡GOOGLE I/O ES HOY!</string>
+    <string name="date">Miércoles 25-26, Junio</string>
+    <string name="setDate">Añadir evento al calendario</string>
+
+</resources>
