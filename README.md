@@ -17,4 +17,4 @@ Google-IO-Countdown-for-Android
 * Countdown Timer for Google I/O 2014
 * Background
 
-<img src="http://i.imgur.com/dCfj9NN.png" alt="Google I/O Countdown">
+<img src="http://i.imgur.com/lLOOeNX.png" alt="Google I/O Countdown">
