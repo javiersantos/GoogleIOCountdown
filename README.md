@@ -1,4 +1,4 @@
-Google-I-O-Countdown-for-Android
+Google-IO-Countdown-for-Android
 ================================
 
 <b>A countdown for the next Google I/O event. Will be available soon.</b>
