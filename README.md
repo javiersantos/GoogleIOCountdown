@@ -11,6 +11,8 @@ Google-IO-Countdown-for-Android
 <h3>Changelog</h3>
 <h4>01/06/2014</h4> (initial release)
 * New icon
+* Added Spanish language
+* Added option to add calendar event
 * Share Button to the ActionBar
 * Countdown Timer for Google I/O 2014
 * Background
