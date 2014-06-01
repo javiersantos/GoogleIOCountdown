@@ -9,7 +9,7 @@ Google-I-O-Countdown-for-Android
 * RSS Feed for Google I/O
 
 <h3>Changelog</h3>
-<h4>01/06/2014</h4>
+<h4>01/06/2014</h4> (initial release)
 * Share Button to the ActionBar
 * Countdown Timer for Google I/O 2014
 * Background
