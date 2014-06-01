@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
 	
 	// COUNTDOWN TO GOOGLE I/O //
 	
+	TextView text1;
 	TextView countdownTimer;
 
 	@Override
@@ -26,6 +27,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         countdownTimer = (TextView) findViewById(R.id.countdownTimer);
+        text1 = (TextView) findViewById(R.id.text1);
         
         Counter timer = new Counter(00, 00, 9, 25, 05, 2014);
 
@@ -34,6 +36,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onFinish() {
 		        countdownTimer.setText("GOOGLE I/O IS HERE!");
+		        text1.setVisibility(View.INVISIBLE);
 			}
 
 			@Override
@@ -48,6 +51,7 @@ public class MainActivity extends Activity {
 		        String countdown = String.format("%02dd %02dh %02dm %02ds", days,
 		                hours, minutes, seconds);
 		        countdownTimer.setText(countdown);
+		        text1.setText("Next Google I/O");
 			}
         }.start();
 	}
@@ -96,5 +100,5 @@ public class MainActivity extends Activity {
 			return rootView;
 		}
 	}
-
+	
 }

@@ -5,11 +5,26 @@
     android:layout_height="fill_parent" 
     android:orientation="vertical"
     android:background="@drawable/bg" >
+
 <com.javiersantos.googleiocountdown.RobotoFont
-    android:id="@+id/countdownTimer" 
-    android:layout_width="wrap_content" 
-    android:layout_height="wrap_content" 
-    android:layout_centerHorizontal="true" 
-    android:textSize="30sp" 
-    android:textColor="#FFFFFF" />
+    android:id="@+id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="35dp"
+    android:textColor="#FFFFFF"
+    android:textSize="45sp" />
+
+<com.javiersantos.googleiocountdown.RobotoFontLight
+    android:id="@+id/countdownTimer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:layout_below="@+id/text1"
+    android:layout_marginTop="150dp"
+    android:textColor="#FFFFFF"
+    android:textSize="35sp" />
+
 </RelativeLayout>

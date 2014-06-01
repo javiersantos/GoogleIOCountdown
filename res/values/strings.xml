@@ -5,5 +5,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="share">Share</string>
+    <string name="text1">Next Google I/O</string>
 
 </resources>
