@@ -10,6 +10,7 @@ Google-IO-Countdown-for-Android
 
 <h3>Changelog</h3>
 <h4>01/06/2014</h4> (initial release)
+* New icon
 * Share Button to the ActionBar
 * Countdown Timer for Google I/O 2014
 * Background
