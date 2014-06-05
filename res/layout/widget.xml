@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:background="@drawable/widget_bg_normal"
+    android:layout_gravity="center">
+    
+<TextView 
+    android:id="@+id/widget_today"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center"
+    android:layout_marginTop="5dip"
+    android:padding="10dip"
+    android:text="@string/started"
+    android:textColor="@android:color/white" />
+    
+<TextView 
+    android:id="@+id/widget_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center"
+    android:layout_marginTop="5dip"
+    android:padding="10dip"
+    android:textColor="@android:color/white" />
+     
+</LinearLayout>

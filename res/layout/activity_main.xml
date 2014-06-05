@@ -4,9 +4,15 @@
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent" 
     android:orientation="vertical"
-    android:background="@drawable/bg" >
+    android:background="@drawable/bgnew" >
 
-<com.javiersantos.googleiocountdown.RobotoFont
+<android.support.v4.view.ViewPager 
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</android.support.v4.view.ViewPager>
+    
+<TextView
     android:id="@+id/text1"
     android:text="@string/text1"
     android:layout_width="wrap_content"
@@ -15,9 +21,10 @@
     android:layout_alignParentTop="true"
     android:layout_marginTop="40dp"
     android:textColor="#FFFFFF"
+    android:fontFamily="sans-serif"
     android:textSize="40sp" />
 
-<com.javiersantos.googleiocountdown.RobotoFontLight
+<TextView
     android:id="@+id/countdownTimer"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -26,9 +33,10 @@
     android:layout_below="@+id/text1"
     android:layout_marginTop="120dp"
     android:textColor="#FFFFFF"
+    android:fontFamily="sans-serif-light"
     android:textSize="35sp" />
 
-<com.javiersantos.googleiocountdown.RobotoFontLight
+<TextView
     android:id="@+id/date"
     android:text="@string/date"
     android:layout_width="wrap_content"
@@ -36,8 +44,9 @@
     android:layout_centerHorizontal="true"
     android:layout_alignParentTop="true"
     android:layout_below="@+id/countdownTimer"
-    android:layout_marginTop="380dp"
+    android:layout_marginTop="360dp"
     android:textColor="#FFFFFF"
+    android:fontFamily="sans-serif-light"
     android:textSize="30sp" />
 
 <Button 

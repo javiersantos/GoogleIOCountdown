@@ -5,9 +5,13 @@
     <string name="hello_world">¡Hola, mundo!</string>
     <string name="action_settings">Ajustes</string>
     <string name="share">Compartir</string>
-    <string name="text1">Siguiente Google I/O</string>
+    <string name="tab1">Inicio</string>
+    <string name="tab2">Acerca de</string>
+    <string name="text1">Próx. Google I/O</string>
+    <string name="text2">Próx. Google I/O (25-26, Junio)</string>
     <string name="started">¡GOOGLE I/O ES HOY!</string>
     <string name="date">Miércoles 25-26, Junio</string>
     <string name="setDate">Añadir evento al calendario</string>
+    <string name="about">Google I/O Countdown es una sencilla aplicación para ver el tiempo restante para el siguiente evento de Google.</string>
 
 </resources>
