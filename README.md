@@ -1,7 +1,6 @@
-Google-IO-Countdown-for-Android
-================================
+<h1 align="center">Google IO Countdown for Android</h1>
 
-<b>A countdown for the next Google I/O event. Available on <a href="https://play.google.com/store/apps/details?id=com.javiersantos.googleiocountdown">Google Play</a>.</b>
+<p align="center">A countdown for the next Google I/O event. Available on <a target="_blank" href="https://play.google.com/store/apps/details?id=com.javiersantos.googleiocountdown">Google Play</a>.</p>
 
 <h3>In Development</h3>
 * Navigation Drawer
